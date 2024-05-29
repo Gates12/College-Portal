@@ -1,0 +1,167 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+  
+  <title>Browser</title>
+  <link rel="stylesheet" href="index_style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="Image/iiitl_logo.png" alt="Logo">
+            <h2>IIIT <br>LUCKNOW</h2>
+        </div>
+        <div class="quotes">
+            <h2>welcome to the class welcome to the class</h2>
+        </div>
+        <div class="menu_profile">
+            <div class="navbar-profile" onclick="menuToggle();">
+                <img src="Image/profile.jpg" alt="Profile" >
+            </div>
+            <div class="profile_down">
+                <h3>John Doe</h3>
+                <ul>
+                    <li>Branch  : CSAI</li>
+                    <li>Semester: 3rd</li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="contain_all">
+        <aside>
+            <div class="sidebar">
+                <a href="admin_dashboard.html" >
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="admin_grades.html" >
+                    <span class="material-icons-sharp">library_books</span>
+                    <h3>Grades from Faculties</h3>
+                </a>
+                <a href="admin_schedule.html">
+                    <span class="material-icons-sharp">today</span>
+                    <h3>Send Exam Schedule to Student</h3>
+                </a>
+                <a href="admin_results.html">
+                    <span class="material-icons-sharp">credit_score</span>
+                    <h3>Release Exam Results </h3>
+                </a>
+                <a href="admin_register.html" class="active">
+                    <span class="material-icons-sharp">app_registration</span>
+                    <h3>Register</h3>
+                </a>
+                <a href="admin_seating.html">
+                    <span class="material-icons-sharp">airline_seat_recline_normal</span>
+                    <h3>Send Seating Arrangement</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <main >
+            <h1>Back Paper Candidates List</h1>
+            <div class="date">
+                <h3><span id="date"></span></h3>
+            </div>
+            <div class="insights" style="grid-template-columns: repeat(1 ,1fr);">
+                <a href="#">
+                    <div class="tablee">  
+                        <table class="table-contain">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Roll Number</th>
+                                    <th>Subject Code</th>
+                                    <th>Payment</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ruthvik</td>
+                                    <td>LCI2020204</td>
+                                    <td>SMA140C(T)</td>
+                                    <td>Success</td>
+                                </tr>
+                                <tr>
+                                    <td>Aravind</td>
+                                    <td>LCS2020234</td>
+                                    <td>IOT140C(T)</td>
+                                    <td>Success</td>
+                                </tr>
+                                <tr>
+                                    <td>Saketh</td>
+                                    <td>LCI2020230</td>
+                                    <td>IVP140C(T)</td>
+                                    <td>Failed</td>
+                                </tr>
+                                <tr>
+                                    <td>Anvith</td>
+                                    <td>LCI2020934</td>
+                                    <td>DBM140C(T)</td>
+                                    <td>Success</td>
+                                </tr>
+                                <tr>
+                                    <td>Sairam</td>
+                                    <td>LCS2020654</td>
+                                    <td>OSP140C(T)</td>
+                                    <td>Success</td>
+                                </tr>
+                                <tr>
+                                    <td>yashwanth</td>
+                                    <td>LIT2020238</td>
+                                    <td>DBM140C(L)</td>
+                                    <td>Success</td>
+                                </tr>
+                                <tr>
+                                    <td>Harinder</td>
+                                    <td>LCI2020900</td>
+                                    <td>OSP140C(L)</td>
+                                    <td>Success</td>
+                                </tr>
+                                <tr>
+                                    <td>Harinder</td>
+                                    <td>LCI2020900</td>
+                                    <td>OSP140C(L)</td>
+                                    <td>Success</td>
+                                </tr>
+                                <tr>
+                                    <td>Sairam</td>
+                                    <td>LCS2020654</td>
+                                    <td>OSP140C(T)</td>
+                                    <td>Failed</td>
+                                </tr>
+                                <tr style="font-size: 1rem;">
+                                    <td colspan="3"><div>
+                                        <button>1</button>
+                                    </div></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                          
+                    </div>
+                </a>             
+            </div>
+        </main>
+        <div class="contain-rig">
+
+        </div>
+    </div>
+</body>
+<script src="scrpit.js"></script>
+
+</html>
